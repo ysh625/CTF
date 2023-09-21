@@ -1,0 +1,1 @@
+anvil -f https://bsc-dataseed4.ninicoin.io --chain-id 1335  --host 0.0.0.0  

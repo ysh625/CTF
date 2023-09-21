@@ -1,0 +1,1 @@
+forge script ../script/deploy.sol:Deploy  --rpc-url http://127.0.0.1:8545 --chain-id 1335   --broadcast -vvvvv
