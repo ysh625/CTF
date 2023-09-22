@@ -20,12 +20,10 @@ contract GateTest is Test {
     function handle() internal {
         bytes32 data = data2;
         gate.resolve(abi.encodeWithSignature("unlock(bytes)", data));
+        console.log("isSolved: %s", gate.isSolved());
     }
 
     function testResolved() public {
-        // console.log("data0 ", data0);
-        // console.log("data1 ", data1);
-        // console.log("data2 ", data2);
         handle();
         assertEq(gate.isSolved(), true);
     }

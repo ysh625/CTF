@@ -1,1 +1,1 @@
-anvil -f https://bsc-dataseed4.ninicoin.io --chain-id 1335  --host 0.0.0.0  
+anvil -f https://data-seed-prebsc-1-s1.binance.org:8545 --chain-id 1335  --host 0.0.0.0  
